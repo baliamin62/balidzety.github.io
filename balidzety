@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WEB WANNZTY</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f9;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 16px;
+    }
+    nav {
+      background: #333;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      cursor: pointer;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 20px;
+    }
+    footer {
+      background: #222;
+      color: white;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Selamat datang di web wannzty</h1>
+  <p>Ini adalah web untuk menyimpan kenangan kami berdua</p>
+</header>
+
+<nav>
+  <a onclick="showPage('beranda')">Beranda</a>
+  <a onclick="showPage('tentang')">Tentang</a>
+  <a onclick="showPage('kontak')">Kontak</a>
+</nav>
+
+<main>
+  <h2>Memory Wannzty :)</h2>
+  <p>
+    Halo selamat datang yaaa semoga kalian sehat sehat selalu.
+    Web ini baru percobaan saya langkah awal untuk menuju jenjang kuliah.
+  </p>
+
+  <img src="wannzty.jpg" width="150" height="200" alt="foto">
+
+  <br><br>
+
+  <a href="https://www.tiktok.com/@dzyhr26" target="_blank">TIKTOK</a>
+  <p>Mau link TikTok? di atas yaa hehe</p>
+
+  <a href="https://www.instagram.com/wannftdzetyy" target="_blank">LINK IG</a>
+  <p>Itu di atas link IG kami berdua yaa</p>
+</main>
+
+<footer>
+  <p>&copy; 2025 website saya memiliki hak untuk dilindungi</p>
+</footer>
+
+</body>
+</html>
